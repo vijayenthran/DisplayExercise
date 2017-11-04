@@ -1,0 +1,63 @@
+body * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+/*I saw the original comments, I should organize the Divs more properly in a way that they are reusable and, I see that there is a outer Div between, the individual boxes itself
+ >>>>>>>>>>>>>>>>> Questions to make my self clear in this assignment.
+  -- Major difference between Div and Main element in html.
+  -- Can the main be uses as the parent of divs.
+  -- I assume that both the Div and Main elements are just boxes, So when We are controlling boxes. Is that correct.
+  -- Is just using an outer parent Div for all the other divs is a good practise, If So then when all I should use that representation.
+  */
+  main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 500px;
+    font-size: 0;
+    margin-top: 90px;
+  }
+  .common{
+    display: inline-block;
+  }
+  .div1{
+    border: 1px solid black;
+    background-color:green;
+    width:400px;
+    height:200px;
+  }
+
+  .div2{
+    border: 1px solid black;
+    background-color:blue;
+    width:400px;
+    height:200px;
+  }
+
+  .div3{
+    border: 1px solid black;
+    background-color:gray;
+    width : 266.26px;
+    height:300px;
+  }
+
+  .div4{
+    border: 1px solid black;
+    background-color:black;
+    width : 266.26px;
+    height:300px;
+  }
+
+  .div5{
+    border: 1px solid black;
+    background-color:orange;
+    width : 266.26px;
+    height:300px;
+  }
+
+
+/* Your styles go here! */
